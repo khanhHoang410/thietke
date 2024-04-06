@@ -1,0 +1,181 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #efe6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chuDau1 {
+  font-size: 20pt;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.header_action i {
+  font-size: 22px;
+  margin-right: 20px;
+}
+.women {
+  margin-top: 30px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #cdc2c2;
+}
+.chuWomen {
+  font-size: 24px;
+  font-weight: 600;
+}
+.menu {
+  width: 100%;
+  height: auto;
+  background-color: #efe6e6;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15pt;
+  font-weight: bold;
+}
+.menu ul li:hover > a {
+  color: gray;
+  text-decoration: underline;
+}
+.bo {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sanPham {
+  width: 30%;
+  text-align: center;
+}
+.image {
+  width: 100%;
+}
+.tenBo {
+  display: flex;
+  flex-direction: column;
+}
+.ten {
+  font-weight: 500;
+}
+.me {
+  margin-top: 50px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.me button {
+  display: inline block;
+}
+button {
+  width: 406px;
+  height: 3rem;
+  font-weight: 600;
+  border: 2px solid black;
+}
+.me:hover > button {
+  background-color: black;
+  color: white;
+}
+.phancuoi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.form-floating {
+  width: 25%;
+  margin-top: 10px;
+  text-align: center;
+}
+.form-control {
+  background-color: white;
+}
+.cuoi {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.anh1 {
+  width: 80%;
+  height: auto;
+}
+h5 {
+  font-weight: bold;
+}
+.chu {
+  color: gray;
+}
+
+@media screen and (max-width: 900px) {
+  .women {
+    width: 100%;
+    height: auto;
+  }
+  .menu ul {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    background-color: #efe6e6;
+  }
+  .menu ul li {
+    padding: 10px 0;
+  }
+  .bo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sanPham {
+    width: 45%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .women {
+    width: 100%;
+    height: auto;
+  }
+  .menu ul {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    background-color: #efe6e6;
+  }
+  .menu ul li {
+    padding: 10px 0;
+  }
+  .bo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sanPham {
+    width: 85%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,111 @@
+.cuoi {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.anh1 {
+  width: 80%;
+  height: auto;
+}
+h5 {
+  font-weight: bold;
+}
+.chu {
+  color: gray;
+}
+.phancuoi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.form-floating {
+  width: 25%;
+  margin-top: 10px;
+  text-align: center;
+}
+.form-control {
+  background-color: white;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #efe6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chuDau1 {
+  font-size: 20pt;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.header_action i {
+  font-size: 22px;
+  margin-right: 20px;
+}
+.women {
+  margin-top: 30px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #cdc2c2;
+}
+.chuWomen {
+  font-size: 24px;
+  font-weight: 600;
+}
+.menu {
+  width: 100%;
+  height: auto;
+  background-color: #efe6e6;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15pt;
+  font-weight: bold;
+}
+.menu ul li:hover > a {
+  color: gray;
+  text-decoration: underline;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 50%;
+}
+textarea {
+  width: 50%;
+}
+.nut {
+  width: 10%;
+  margin-top: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.nut:hover {
+  color: white;
+  background-color: black;
+}

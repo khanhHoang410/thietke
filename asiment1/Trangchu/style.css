@@ -1,0 +1,416 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #efe6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anhto1 {
+  width: 100%;
+}
+.chuDau1 {
+  font-size: 20pt;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.header_action i {
+  font-size: 22px;
+  margin-right: 20px;
+}
+.menu {
+  width: 100%;
+  height: auto;
+  background-color: #efe6e6;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 60px; */
+}
+.menu ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15pt;
+  font-weight: bold;
+}
+.menu ul li:hover > a {
+  color: gray;
+  text-decoration: underline;
+}
+.chuNew {
+  font-size: 42px;
+  padding-top: 50px;
+}
+.anhSanPham1 {
+  height: 134px;
+  width: 134px;
+  border-radius: 50%;
+}
+.tenSanPham {
+  text-decoration: underline;
+  padding-left: 20px;
+}
+.sanphammoi {
+  display: flex;
+}
+
+.sanphammoi .anhSanPham1:hover {
+  cursor: pointer;
+}
+.sanphammoi .tenSanPham:hover {
+  cursor: pointer;
+}
+.boNew {
+  text-align: center;
+  width: 50%;
+  /* height: 100px; */
+}
+.sanPham {
+  padding-top: 50px;
+  width: 15%;
+  justify-content: space-evenly;
+}
+.ao {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.anhAo {
+  width: 342px;
+  height: 606px;
+}
+.Ao {
+  font-size: 42px;
+}
+.ao .sanPham2:hover {
+  cursor: pointer;
+}
+.tuixach {
+  margin-top: 100px;
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+}
+.anhTuiXach {
+  width: 342px;
+  height: 606px;
+}
+.recent {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.anhRecent {
+  width: 197px;
+  height: 305px;
+}
+.recentstory {
+  padding-top: 50px;
+  font-size: 20pt;
+}
+.phancuoi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.cuoi {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.anh1 {
+  width: 80%;
+  height: auto;
+}
+h5 {
+  font-weight: bold;
+}
+.chu {
+  color: gray;
+}
+.form-floating {
+  width: 25%;
+  margin-top: 10px;
+  text-align: center;
+}
+.form-control {
+  background-color: white;
+}
+.nav-link {
+  color: black;
+  font-size: 15pt;
+  font-weight: bold;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .Ao {
+    padding-top: 10px;
+    width: 100%;
+
+    text-align: center;
+  }
+  .sanPham2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tuixach {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ao {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .anhAo {
+    width: 70%;
+    height: auto;
+  }
+  .tuixach {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sanPham3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .anhTuiXach {
+    width: 80%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+  .anhto {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .menu ul {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    background-color: #efe6e6;
+  }
+  .menu ul li {
+    padding: 10px 0;
+  }
+  .boNew {
+    width: 100%;
+    max-width: 100%;
+  }
+  .chuNew {
+    font-size: 42px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sanPham {
+    width: 50%;
+  }
+  .menu {
+    background-color: #efe6e6;
+  }
+  .sanphammoi {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .sanPham {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Ao {
+    padding-top: 10px;
+    width: 100%;
+
+    text-align: center;
+  }
+  .sanPham2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tuixach {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ao {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .anhAo {
+    width: 70%;
+    height: auto;
+  }
+  .tuixach {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sanPham3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .anhTuiXach {
+    width: 80%;
+    height: auto;
+  }
+  .recentstory {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .recent {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cauChuyen {
+    width: 100%;
+    height: auto;
+  }
+  .anhRecent {
+    width: 85%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+  }
+  .anhto {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .menu ul {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    background-color: #efe6e6;
+  }
+  .menu ul li {
+    padding: 10px 0;
+  }
+  .boNew {
+    width: 100%;
+    max-width: 100%;
+  }
+  .chuNew {
+    font-size: 42px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sanPham {
+    width: 100%;
+  }
+  .menu {
+    background-color: #efe6e6;
+  }
+  .sanphammoi {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .sanPham {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Ao {
+    padding-top: 10px;
+    width: 100%;
+
+    text-align: center;
+  }
+  .sanPham2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tuixach {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ao {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .anhAo {
+    width: 85%;
+    height: auto;
+  }
+  .tuixach {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sanPham3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .anhTuiXach {
+    width: 80%;
+    height: auto;
+  }
+  .recentstory {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .recent {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cauChuyen {
+    width: 100%;
+    height: auto;
+  }
+  .anhRecent {
+    width: 85%;
+    height: auto;
+  }
+}
