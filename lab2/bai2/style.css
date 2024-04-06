@@ -1,0 +1,92 @@
+.phan1 {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #4caf50;
+  height: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: 550;
+}
+.phan2 {
+  width: 44%;
+  margin: 0 auto;
+  background-color: #ff9800;
+  display: flex;
+  flex-direction: column;
+  /* font-weight: 551; */
+}
+.chutoo {
+  color: white;
+  font-size: 24px;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 551;
+}
+.chubee {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.phan3 {
+  background-color: #da952d;
+  height: 100px;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chu3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 550;
+}
+@media screen and (max-width: 320px) {
+  body {
+    background-color: aqua;
+  }
+  .phan1 {
+    width: 100%;
+  }
+  .phan2 {
+    width: 70%;
+  }
+  .phan3 {
+    width: 100%;
+  }
+}
+@media screen and (max-with: 768px) {
+  body {
+    background-color: blueviolet;
+  }
+  .phan1 {
+    width: 100%;
+  }
+  .phan2 {
+    width: 70%;
+  }
+  .phan3 {
+    width: 100%;
+  }
+}
+@media screen and (max-with: 1024px) {
+  body {
+    background-color: chartreuse;
+  }
+  .phan1 {
+    width: 100%;
+  }
+  .phan2 {
+    width: 70%;
+  }
+  .phan3 {
+    width: 100%;
+  }
+}
